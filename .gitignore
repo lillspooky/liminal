@@ -1,1 +1,13 @@
-liminal/Library/
+# Ignore Visual Studio temporary files
+.vs/
+
+# Ignore Unity cache and temporary files
+Temp/
+Library/
+Logs/
+obj/
+
+# Ignore specific Unity-generated files
+*.csproj
+*.sln
+*.user

@@ -6,7 +6,7 @@ namespace AdvancedRogueLikeandPuzzleSystem
     {
         [Header("Camera Targets & Layers")]
         public Transform viewTarget;
-        public Transform playerCameraRoot; 
+        public Transform playerCameraRoot;
         public LayerMask collisionLayers;
 
         [Header("Distance & Height Settings")]
@@ -35,16 +35,16 @@ namespace AdvancedRogueLikeandPuzzleSystem
         // --------------------------------------------------
         private enum CameraState
         {
-            Normal,                 // normal user-driven camera
+            Normal,                  // normal user-driven camera
             TransitioningToOverride,
-            Overridden,            // pinned at override
+            Overridden,             // pinned at override
             TransitioningToNormal
         }
 
         private CameraState cameraState = CameraState.Normal;
 
-        // "Normal" parameters (editor & runtime input). We store them 
-        // so we can revert to these if we were overridden
+        // "Normal" parameters (the baseline for user input).
+        // We store them so we can revert to these if we're overridden.
         private float normalDistance;
         private float normalHeight;
         private Vector3 normalRotationEuler;
@@ -77,13 +77,15 @@ namespace AdvancedRogueLikeandPuzzleSystem
             normalDistance = distance;
             normalHeight = height;
             normalRotationEuler = cameraRotationEuler;
+
+            // Force the camera to snap immediately to the correct position/rotation
+            ForceImmediateCameraPosition();
         }
 
         private void LateUpdate()
         {
             if (!viewTarget) return;
 
-            // Evaluate the cameraState
             switch (cameraState)
             {
                 case CameraState.Normal:
@@ -101,12 +103,41 @@ namespace AdvancedRogueLikeandPuzzleSystem
             }
         }
 
-        #region State Updates
+        #region Immediate Position Snap
 
-        // Normal user-driven logic (mouse zoom, etc.)
+        /// <summary>
+        /// Immediately place the camera in the desired position at scene start,
+        /// avoiding an initial frame that might show a distant or undesired transform.
+        /// </summary>
+        private void ForceImmediateCameraPosition()
+        {
+            if (!viewTarget) return;
+
+            Vector3 pivotPos = (playerCameraRoot != null) ? playerCameraRoot.position : viewTarget.position;
+            Quaternion initRot = Quaternion.Euler(cameraRotationEuler);
+
+            Vector3 desiredPos = pivotPos
+                                 + initRot * (Vector3.back * smoothDistance)
+                                 + Vector3.up * height;
+
+            // Check for collisions so we don't start inside geometry
+            desiredPos = CheckCollisions(pivotPos, desiredPos);
+
+            camTransform.position = desiredPos;
+            camTransform.rotation = initRot;
+        }
+
+        #endregion
+
+        #region Camera State Updates
+
+        /// <summary>
+        /// Normal user-driven logic (zoom, etc.) 
+        /// called when cameraState == Normal
+        /// </summary>
         private void DoNormalUpdate()
         {
-            // Zoom logic
+            // Handle zoom input
             distance = Mathf.Clamp(distance - Input.GetAxis("Mouse ScrollWheel") * 2f,
                                    minDistance, maxDistance);
             smoothDistance = Mathf.Lerp(smoothDistance, distance, TimeSignature(distanceSpeed));
@@ -115,7 +146,7 @@ namespace AdvancedRogueLikeandPuzzleSystem
             Vector3 pivotPos = (playerCameraRoot != null) ? playerCameraRoot.position : viewTarget.position;
             Quaternion currentRot = Quaternion.Euler(cameraRotationEuler);
 
-            // Calculate position
+            // Calculate desired position
             newPosition = pivotPos
                           + currentRot * (Vector3.back * smoothDistance)
                           + Vector3.up * height;
@@ -127,24 +158,26 @@ namespace AdvancedRogueLikeandPuzzleSystem
             camTransform.position = Vector3.Lerp(camTransform.position, newPosition, MoveDamping);
             camTransform.rotation = currentRot;
 
-            // Shake
+            // Shake logic
             if (fCamShakeImpulse > 0f)
                 shakeCamera();
 
-            // Continuously update "normal" fields so if we override & revert, we come back to the *latest* normal
+            // Continuously update "normal" fields so if we override & revert,
+            // we come back to the *latest* normal values
             normalDistance = distance;
             normalHeight = height;
             normalRotationEuler = cameraRotationEuler;
         }
 
-        // Overridden: we stay pinned at the final override parameters (no user input).
+        /// <summary>
+        /// Overridden: we stay pinned at the final override parameters (no user input).
+        /// </summary>
         private void DoOverriddenUpdate()
         {
-            // We remain locked in the override parameters
             Vector3 pivotPos = (playerCameraRoot != null) ? playerCameraRoot.position : viewTarget.position;
 
-            // Just place camera exactly at the override
-            var rot = overrideRotation;
+            // Place camera exactly at the override
+            Quaternion rot = overrideRotation;
             newPosition = pivotPos
                           + rot * (Vector3.back * overrideDistance)
                           + Vector3.up * overrideHeight;
@@ -157,7 +190,9 @@ namespace AdvancedRogueLikeandPuzzleSystem
             if (fCamShakeImpulse > 0f) shakeCamera();
         }
 
-        // Transition (lerp) either to override or back to normal
+        /// <summary>
+        /// Transition (lerp) either to override or back to normal
+        /// </summary>
         private void DoTransitionUpdate(bool toOverride)
         {
             float elapsed = Time.time - transitionStartTime;
@@ -166,7 +201,11 @@ namespace AdvancedRogueLikeandPuzzleSystem
             // Interpolate distance, height, rotation
             float curDist = Mathf.Lerp(startDistance, (toOverride ? overrideDistance : normalDistance), t);
             float curHeight = Mathf.Lerp(startHeight, (toOverride ? overrideHeight : normalHeight), t);
-            Quaternion curRot = Quaternion.Slerp(startRotation, (toOverride ? overrideRotation : Quaternion.Euler(normalRotationEuler)), t);
+            Quaternion curRot = Quaternion.Slerp(
+                startRotation,
+                (toOverride ? overrideRotation : Quaternion.Euler(normalRotationEuler)),
+                t
+            );
 
             // Position
             Vector3 pivotPos = (playerCameraRoot != null) ? playerCameraRoot.position : viewTarget.position;
@@ -207,9 +246,6 @@ namespace AdvancedRogueLikeandPuzzleSystem
         /// </summary>
         public void StartTransitionToOverride(float newDist, float newHeight, Vector3 newRotEuler, float duration)
         {
-            // If we are already "Overridden" or "TransitioningToOverride", we’ll reset the transition with new info
-            // If we are Normal or TransitioningToNormal, we just begin override now
-
             // Capture the camera’s current "live" state as the start
             startDistance = GetCurrentDistance();
             startHeight = GetCurrentHeight();
@@ -248,7 +284,7 @@ namespace AdvancedRogueLikeandPuzzleSystem
 
         #region Helpers
 
-        // Actually measure how far the camera is from pivot right now (since we might be mid-lerp)
+        // Measure how far the camera is from pivot right now.
         private float GetCurrentDistance()
         {
             if (!viewTarget && !playerCameraRoot) return distance;
@@ -277,7 +313,7 @@ namespace AdvancedRogueLikeandPuzzleSystem
             return desiredPos;
         }
 
-        // Your smoothing function
+        // A smoothing function for zoom transitions
         private float TimeSignature(float speed)
         {
             return 1.0f / (1.0f + 80.0f * Mathf.Exp(-speed * 0.02f));
