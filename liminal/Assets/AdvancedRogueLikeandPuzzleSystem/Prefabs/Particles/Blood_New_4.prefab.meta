@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 47c6eee70f9391f46a710b0592491a63
+timeCreated: 1551971616
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249430
+  packageName: '3D Roguelike RPG Complete Kit for Mobile and PC: TPS, Enemy AI, Puzzle
+    and Props'
+  packageVersion: 2.1
+  assetPath: Assets/AdvancedRogueLikeandPuzzleSystem/Prefabs/Particles/Blood_New_4.prefab
+  uploadId: 658045

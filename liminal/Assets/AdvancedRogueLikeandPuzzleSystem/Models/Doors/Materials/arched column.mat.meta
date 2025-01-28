@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1f3b2aae268b68f41a720a9f2171e967
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249430
+  packageName: '3D Roguelike RPG Complete Kit for Mobile and PC: TPS, Enemy AI, Puzzle
+    and Props'
+  packageVersion: 2.1
+  assetPath: Assets/AdvancedRogueLikeandPuzzleSystem/Models/Doors/Materials/arched
+    column.mat
+  uploadId: 658045

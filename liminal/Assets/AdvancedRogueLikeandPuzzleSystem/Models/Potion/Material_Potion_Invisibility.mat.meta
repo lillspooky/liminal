@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c8f33901cbf1341959f9fcd0a6327c38
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249430
+  packageName: '3D Roguelike RPG Complete Kit for Mobile and PC: TPS, Enemy AI, Puzzle
+    and Props'
+  packageVersion: 2.1
+  assetPath: Assets/AdvancedRogueLikeandPuzzleSystem/Models/Potion/Material_Potion_Invisibility.mat
+  uploadId: 658045

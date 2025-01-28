@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e7912d15146fcf145afaaedec646b781
+timeCreated: 1519499170
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249430
+  packageName: '3D Roguelike RPG Complete Kit for Mobile and PC: TPS, Enemy AI, Puzzle
+    and Props'
+  packageVersion: 2.1
+  assetPath: Assets/AdvancedRogueLikeandPuzzleSystem/Mats_Textures/ParticleMaterialsAndTextures/explosion_spritesheet_3x3_AB.mat
+  uploadId: 658045

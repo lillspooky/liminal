@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ddbb58aa2a35c4ef99cb50bc8126217e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249430
+  packageName: '3D Roguelike RPG Complete Kit for Mobile and PC: TPS, Enemy AI, Puzzle
+    and Props'
+  packageVersion: 2.1
+  assetPath: Assets/AdvancedRogueLikeandPuzzleSystem/Animation/Animations/Archer/Die.anim
+  uploadId: 658045

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b16f14f44f7f84d95b4ddc01cfaf9e55
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249430
+  packageName: '3D Roguelike RPG Complete Kit for Mobile and PC: TPS, Enemy AI, Puzzle
+    and Props'
+  packageVersion: 2.1
+  assetPath: Assets/AdvancedRogueLikeandPuzzleSystem/Prefabs/Managers/GameManager.prefab
+  uploadId: 658045

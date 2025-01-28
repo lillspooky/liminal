@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bd5c2680d7f8c4f0c9557c8508d9ffda
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 31900000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249430
+  packageName: '3D Roguelike RPG Complete Kit for Mobile and PC: TPS, Enemy AI, Puzzle
+    and Props'
+  packageVersion: 2.1
+  assetPath: Assets/AdvancedRogueLikeandPuzzleSystem/Models/Character/Mask_Foot.mask
+  uploadId: 658045

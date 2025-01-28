@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0711ea139cbfdb04aa3f8bbbb67bca98
+timeCreated: 1519560674
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249430
+  packageName: '3D Roguelike RPG Complete Kit for Mobile and PC: TPS, Enemy AI, Puzzle
+    and Props'
+  packageVersion: 2.1
+  assetPath: Assets/AdvancedRogueLikeandPuzzleSystem/Mats_Textures/ParticleMaterialsAndTextures/Point19bcg.mat
+  uploadId: 658045

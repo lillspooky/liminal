@@ -1,0 +1,1637 @@
+fileFormatVersion: 2
+guid: 8a5df5896ae14fe44a5a9ca3ddef1687
+ModelImporter:
+  serializedVersion: 22103
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: ogre_01
+  - first:
+      1: 100004
+    second: ogre_02
+  - first:
+      1: 100006
+    second: ogre_armor
+  - first:
+      1: 100008
+    second: ogre_armplate
+  - first:
+      1: 100010
+    second: ogre_axe_01
+  - first:
+      1: 100012
+    second: ogre_axe_02
+  - first:
+      1: 100014
+    second: ogre_club
+  - first:
+      1: 100016
+    second: ogre_hammer
+  - first:
+      1: 100018
+    second: ogre_helmelt_01
+  - first:
+      1: 100020
+    second: ogre_helmelt_02
+  - first:
+      1: 100022
+    second: ogre_helmelt_03
+  - first:
+      1: 100024
+    second: ogre_mace
+  - first:
+      1: 100026
+    second: ogre_morningstar
+  - first:
+      1: 100028
+    second: ogre_shoulderpad_00
+  - first:
+      1: 100030
+    second: ogre_shoulderpad_01
+  - first:
+      1: 100032
+    second: ogre_shoulderpad_03
+  - first:
+      1: 100034
+    second: ogre_sword
+  - first:
+      1: 100036
+    second: ogre_trunk
+  - first:
+      1: 100038
+    second: Ogrecloth_back
+  - first:
+      1: 100040
+    second: Ogrecloth_front
+  - first:
+      1: 100042
+    second: OgreHead
+  - first:
+      1: 100044
+    second: OgreLCalf
+  - first:
+      1: 100046
+    second: OgreLCollarbone
+  - first:
+      1: 100048
+    second: OgreLDigit11
+  - first:
+      1: 100050
+    second: OgreLDigit11 1
+  - first:
+      1: 100052
+    second: OgreLDigit12
+  - first:
+      1: 100054
+    second: OgreLDigit13
+  - first:
+      1: 100056
+    second: OgreLDigit21
+  - first:
+      1: 100058
+    second: OgreLDigit22
+  - first:
+      1: 100060
+    second: OgreLDigit23
+  - first:
+      1: 100062
+    second: OgreLDigit31
+  - first:
+      1: 100064
+    second: OgreLDigit32
+  - first:
+      1: 100066
+    second: OgreLDigit33
+  - first:
+      1: 100068
+    second: OgreLFoot
+  - first:
+      1: 100070
+    second: OgreLForearm
+  - first:
+      1: 100072
+    second: OgreLPalm
+  - first:
+      1: 100074
+    second: OgreLThigh
+  - first:
+      1: 100076
+    second: OgreLUpperarm
+  - first:
+      1: 100078
+    second: Ogremouth
+  - first:
+      1: 100080
+    second: OgreNeck
+  - first:
+      1: 100082
+    second: OgrePelvis
+  - first:
+      1: 100084
+    second: OgreRCalf
+  - first:
+      1: 100086
+    second: OgreRCollarbone
+  - first:
+      1: 100088
+    second: OgreRDigit11
+  - first:
+      1: 100090
+    second: OgreRDigit11 1
+  - first:
+      1: 100092
+    second: OgreRDigit12
+  - first:
+      1: 100094
+    second: OgreRDigit13
+  - first:
+      1: 100096
+    second: OgreRDigit21
+  - first:
+      1: 100098
+    second: OgreRDigit22
+  - first:
+      1: 100100
+    second: OgreRDigit23
+  - first:
+      1: 100102
+    second: OgreRDigit31
+  - first:
+      1: 100104
+    second: OgreRDigit32
+  - first:
+      1: 100106
+    second: OgreRDigit33
+  - first:
+      1: 100108
+    second: OgreRFoot
+  - first:
+      1: 100110
+    second: OgreRForearm
+  - first:
+      1: 100112
+    second: OgreRibcage
+  - first:
+      1: 100114
+    second: OgreRPalm
+  - first:
+      1: 100116
+    second: OgreRThigh
+  - first:
+      1: 100118
+    second: OgreRUpperarm
+  - first:
+      1: 100120
+    second: OgreSpine1
+  - first:
+      1: 100122
+    second: OgreSpine2
+  - first:
+      1: 100124
+    second: OgreSpine3
+  - first:
+      1: 100126
+    second: Orgre_ponnytail
+  - first:
+      1: 100128
+    second: OgreLToe11
+  - first:
+      1: 100130
+    second: OgreRToe11
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: ogre_01
+  - first:
+      4: 400004
+    second: ogre_02
+  - first:
+      4: 400006
+    second: ogre_armor
+  - first:
+      4: 400008
+    second: ogre_armplate
+  - first:
+      4: 400010
+    second: ogre_axe_01
+  - first:
+      4: 400012
+    second: ogre_axe_02
+  - first:
+      4: 400014
+    second: ogre_club
+  - first:
+      4: 400016
+    second: ogre_hammer
+  - first:
+      4: 400018
+    second: ogre_helmelt_01
+  - first:
+      4: 400020
+    second: ogre_helmelt_02
+  - first:
+      4: 400022
+    second: ogre_helmelt_03
+  - first:
+      4: 400024
+    second: ogre_mace
+  - first:
+      4: 400026
+    second: ogre_morningstar
+  - first:
+      4: 400028
+    second: ogre_shoulderpad_00
+  - first:
+      4: 400030
+    second: ogre_shoulderpad_01
+  - first:
+      4: 400032
+    second: ogre_shoulderpad_03
+  - first:
+      4: 400034
+    second: ogre_sword
+  - first:
+      4: 400036
+    second: ogre_trunk
+  - first:
+      4: 400038
+    second: Ogrecloth_back
+  - first:
+      4: 400040
+    second: Ogrecloth_front
+  - first:
+      4: 400042
+    second: OgreHead
+  - first:
+      4: 400044
+    second: OgreLCalf
+  - first:
+      4: 400046
+    second: OgreLCollarbone
+  - first:
+      4: 400048
+    second: OgreLDigit11
+  - first:
+      4: 400050
+    second: OgreLDigit11 1
+  - first:
+      4: 400052
+    second: OgreLDigit12
+  - first:
+      4: 400054
+    second: OgreLDigit13
+  - first:
+      4: 400056
+    second: OgreLDigit21
+  - first:
+      4: 400058
+    second: OgreLDigit22
+  - first:
+      4: 400060
+    second: OgreLDigit23
+  - first:
+      4: 400062
+    second: OgreLDigit31
+  - first:
+      4: 400064
+    second: OgreLDigit32
+  - first:
+      4: 400066
+    second: OgreLDigit33
+  - first:
+      4: 400068
+    second: OgreLFoot
+  - first:
+      4: 400070
+    second: OgreLForearm
+  - first:
+      4: 400072
+    second: OgreLPalm
+  - first:
+      4: 400074
+    second: OgreLThigh
+  - first:
+      4: 400076
+    second: OgreLUpperarm
+  - first:
+      4: 400078
+    second: Ogremouth
+  - first:
+      4: 400080
+    second: OgreNeck
+  - first:
+      4: 400082
+    second: OgrePelvis
+  - first:
+      4: 400084
+    second: OgreRCalf
+  - first:
+      4: 400086
+    second: OgreRCollarbone
+  - first:
+      4: 400088
+    second: OgreRDigit11
+  - first:
+      4: 400090
+    second: OgreRDigit11 1
+  - first:
+      4: 400092
+    second: OgreRDigit12
+  - first:
+      4: 400094
+    second: OgreRDigit13
+  - first:
+      4: 400096
+    second: OgreRDigit21
+  - first:
+      4: 400098
+    second: OgreRDigit22
+  - first:
+      4: 400100
+    second: OgreRDigit23
+  - first:
+      4: 400102
+    second: OgreRDigit31
+  - first:
+      4: 400104
+    second: OgreRDigit32
+  - first:
+      4: 400106
+    second: OgreRDigit33
+  - first:
+      4: 400108
+    second: OgreRFoot
+  - first:
+      4: 400110
+    second: OgreRForearm
+  - first:
+      4: 400112
+    second: OgreRibcage
+  - first:
+      4: 400114
+    second: OgreRPalm
+  - first:
+      4: 400116
+    second: OgreRThigh
+  - first:
+      4: 400118
+    second: OgreRUpperarm
+  - first:
+      4: 400120
+    second: OgreSpine1
+  - first:
+      4: 400122
+    second: OgreSpine2
+  - first:
+      4: 400124
+    second: OgreSpine3
+  - first:
+      4: 400126
+    second: Orgre_ponnytail
+  - first:
+      4: 400128
+    second: OgreLToe11
+  - first:
+      4: 400130
+    second: OgreRToe11
+  - first:
+      23: 2300000
+    second: ogre_axe_01
+  - first:
+      23: 2300002
+    second: ogre_axe_02
+  - first:
+      23: 2300004
+    second: ogre_club
+  - first:
+      23: 2300006
+    second: ogre_hammer
+  - first:
+      23: 2300008
+    second: ogre_helmelt_01
+  - first:
+      23: 2300010
+    second: ogre_helmelt_02
+  - first:
+      23: 2300012
+    second: ogre_helmelt_03
+  - first:
+      23: 2300014
+    second: ogre_mace
+  - first:
+      23: 2300016
+    second: ogre_morningstar
+  - first:
+      23: 2300018
+    second: ogre_sword
+  - first:
+      23: 2300020
+    second: ogre_trunk
+  - first:
+      33: 3300000
+    second: ogre_axe_01
+  - first:
+      33: 3300002
+    second: ogre_axe_02
+  - first:
+      33: 3300004
+    second: ogre_club
+  - first:
+      33: 3300006
+    second: ogre_hammer
+  - first:
+      33: 3300008
+    second: ogre_helmelt_01
+  - first:
+      33: 3300010
+    second: ogre_helmelt_02
+  - first:
+      33: 3300012
+    second: ogre_helmelt_03
+  - first:
+      33: 3300014
+    second: ogre_mace
+  - first:
+      33: 3300016
+    second: ogre_morningstar
+  - first:
+      33: 3300018
+    second: ogre_sword
+  - first:
+      33: 3300020
+    second: ogre_trunk
+  - first:
+      43: 4300000
+    second: ogre_morningstar
+  - first:
+      43: 4300002
+    second: ogre_club
+  - first:
+      43: 4300004
+    second: ogre_axe_02
+  - first:
+      43: 4300006
+    second: ogre_axe_01
+  - first:
+      43: 4300008
+    second: ogre_sword
+  - first:
+      43: 4300010
+    second: ogre_trunk
+  - first:
+      43: 4300012
+    second: ogre_hammer
+  - first:
+      43: 4300014
+    second: ogre_mace
+  - first:
+      43: 4300016
+    second: ogre_helmelt_01
+  - first:
+      43: 4300018
+    second: ogre_helmelt_02
+  - first:
+      43: 4300020
+    second: ogre_helmelt_03
+  - first:
+      43: 4300022
+    second: ogre_01
+  - first:
+      43: 4300024
+    second: ogre_shoulderpad_03
+  - first:
+      43: 4300026
+    second: ogre_shoulderpad_00
+  - first:
+      43: 4300028
+    second: ogre_shoulderpad_01
+  - first:
+      43: 4300030
+    second: ogre_armplate
+  - first:
+      43: 4300032
+    second: ogre_armor
+  - first:
+      43: 4300034
+    second: ogre_02
+  - first:
+      43: 4300036
+    second: Orgre_ponnytail
+  - first:
+      74: 7400000
+    second: idle
+  - first:
+      74: 7400002
+    second: 'idle break '
+  - first:
+      74: 7400004
+    second: crouch
+  - first:
+      74: 7400006
+    second: hit
+  - first:
+      74: 7400008
+    second: attack1
+  - first:
+      74: 7400010
+    second: attack2
+  - first:
+      74: 7400012
+    second: attack3
+  - first:
+      74: 7400014
+    second: die
+  - first:
+      74: 7400016
+    second: taunt
+  - first:
+      74: 7400018
+    second: jump
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: ogre_01
+  - first:
+      137: 13700002
+    second: ogre_02
+  - first:
+      137: 13700004
+    second: ogre_armor
+  - first:
+      137: 13700006
+    second: ogre_armplate
+  - first:
+      137: 13700008
+    second: ogre_shoulderpad_00
+  - first:
+      137: 13700010
+    second: ogre_shoulderpad_01
+  - first:
+      137: 13700012
+    second: ogre_shoulderpad_03
+  - first:
+      137: 13700014
+    second: Orgre_ponnytail
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: <Root Transform>
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'OgreLToe11' has translation animation that
+      will be discarded.\n\t'OgreRToe11' has translation animation that will be discarded.\n\t'OgreRibcage'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: 
+      internalID: 0
+      firstFrame: 5
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 'idle break '
+      takeName: 
+      internalID: 0
+      firstFrame: 100
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: crouch
+      takeName: 
+      internalID: 0
+      firstFrame: 160
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hit
+      takeName: 
+      internalID: 0
+      firstFrame: 200
+      lastFrame: 220
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack1
+      takeName: 
+      internalID: 0
+      firstFrame: 220
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack2
+      takeName: 
+      internalID: 0
+      firstFrame: 250
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack3
+      takeName: 
+      internalID: 0
+      firstFrame: 280
+      lastFrame: 330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: die
+      takeName: 
+      internalID: 0
+      firstFrame: 340
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: taunt
+      takeName: 
+      internalID: 0
+      firstFrame: 420
+      lastFrame: 490
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump
+      takeName: 
+      internalID: 0
+      firstFrame: 490
+      lastFrame: 535
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: OgrePelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLCalf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRCalf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreSpine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreSpine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreNeck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLUpperarm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRUpperarm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLForearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRForearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLToe11
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRToe11
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ogremouth
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLDigit11
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLDigit12
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLDigit13
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLDigit21
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLDigit22
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLDigit23
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLDigit31
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLDigit32
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreLDigit33
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRDigit11
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRDigit12
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRDigit13
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRDigit21
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRDigit22
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRDigit23
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRDigit31
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRDigit32
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreRDigit33
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: OgreSpine3
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: FH_ogre(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ogre_01
+      parentName: FH_ogre(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ogre_shoulderpad_03
+      parentName: FH_ogre(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ogre_shoulderpad_00
+      parentName: FH_ogre(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ogre_shoulderpad_01
+      parentName: FH_ogre(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ogre_armplate
+      parentName: FH_ogre(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ogre_armor
+      parentName: FH_ogre(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ogre_02
+      parentName: FH_ogre(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Orgre_ponnytail
+      parentName: FH_ogre(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: OgrePelvis
+      parentName: FH_ogre(Clone)
+      position: {x: 0.0000062606005, y: 1.0477701, z: -0.0145317}
+      rotation: {x: 0.49912265, y: -0.50086725, z: -0.4991312, w: 0.5008759}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: OgreLThigh
+      parentName: OgrePelvis
+      position: {x: -0.04143608, y: 0.11297854, z: 0.23217292}
+      rotation: {x: 0.03844605, y: 0.9966941, z: 0.022645993, w: 0.06789764}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000001}
+    - name: OgreLCalf
+      parentName: OgreLThigh
+      position: {x: -0.49493444, y: 0.00000017166137, z: -0.000000114440915}
+      rotation: {x: -0.0795099, y: -0.0054285657, z: 0.10243592, w: 0.99154204}
+      scale: {x: 1.0000002, y: 0.9999996, z: 1}
+    - name: OgreLFoot
+      parentName: OgreLCalf
+      position: {x: -0.514419, y: -0.000000007152557, z: 0.000000038146972}
+      rotation: {x: -0.05186856, y: 0.06342085, z: -0.72483486, w: 0.6840335}
+      scale: {x: 1.0000011, y: 0.99999946, z: 1.0000006}
+    - name: OgreLToe11
+      parentName: OgreLFoot
+      position: {x: -0.42482126, y: 0.02481387, z: 0.000004081726}
+      rotation: {x: -0.005508098, y: 0.0000083104505, z: -0.09610382, w: 0.9953561}
+      scale: {x: 0.99999994, y: 0.99999976, z: 1.0000002}
+    - name: Ogrecloth_front
+      parentName: OgrePelvis
+      position: {x: -0.0109455865, y: 0.2134441, z: -0.000000035478152}
+      rotation: {x: 5.2047658e-11, y: 0.00000015706567, z: 1, w: -0.00000013315805}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: OgreSpine1
+      parentName: OgrePelvis
+      position: {x: -0.109993815, y: -0.008415686, z: -0.000000020886654}
+      rotation: {x: 0.0000000074950135, y: 9.553042e-10, z: 0.075157985, w: 0.99717164}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: OgreSpine2
+      parentName: OgreSpine1
+      position: {x: -0.33227682, y: 0.000000028610229, z: 0}
+      rotation: {x: -0.0000000101306865, y: -0.0000000011245154, z: 0.009227152, w: 0.99995744}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1}
+    - name: OgreSpine3
+      parentName: OgreSpine2
+      position: {x: -0.28305542, y: 0, z: 0}
+      rotation: {x: 0.000000005790982, y: 0.000000049465804, z: -0.13230422, w: 0.99120915}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: OgreRibcage
+      parentName: OgreSpine3
+      position: {x: -0.30417877, y: 0, z: 5.820766e-13}
+      rotation: {x: 0.0000000031505056, y: -0.000000029336016, z: -0.058757238, w: 0.9982723}
+      scale: {x: 0.9999989, y: 0.99999875, z: 1}
+    - name: OgreLCollarbone
+      parentName: OgreRibcage
+      position: {x: 0.034027863, y: 0.3226487, z: 0.04561162}
+      rotation: {x: 0.04857154, y: 0.7063152, z: 0.16840585, w: 0.6858565}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.000001}
+    - name: OgreLUpperarm
+      parentName: OgreLCollarbone
+      position: {x: -0.39747605, y: -0.000000009536743, z: 0.00000015258789}
+      rotation: {x: -0.05587445, y: 0.010617909, z: -0.18477444, w: 0.9811339}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999964}
+    - name: OgreLForearm
+      parentName: OgreLUpperarm
+      position: {x: -0.5553428, y: 0, z: 0}
+      rotation: {x: 0.023270657, y: -0.020451825, z: 0.01153398, w: 0.9994534}
+      scale: {x: 1.0000013, y: 0.99999934, z: 1.0000006}
+    - name: OgreLPalm
+      parentName: OgreLForearm
+      position: {x: -0.43344313, y: 0.0000000047683715, z: 0}
+      rotation: {x: -0.6926175, y: 0.031002386, z: 0.024665436, w: 0.7202163}
+      scale: {x: 1.000001, y: 0.99999654, z: 1.0000019}
+    - name: OgreLDigit31
+      parentName: OgreLPalm
+      position: {x: -0.29858223, y: 0.009587402, z: -0.018932495}
+      rotation: {x: -0.020142553, y: 0.0894329, z: 0.015713094, w: 0.99566525}
+      scale: {x: 1.0000019, y: 0.99999964, z: 0.9999987}
+    - name: OgreLDigit32
+      parentName: OgreLDigit31
+      position: {x: -0.11885139, y: 0.00000015258789, z: 0.000000019073486}
+      rotation: {x: -0.008315134, y: -0.009351938, z: 0.03541554, w: 0.9992944}
+      scale: {x: 1.0000023, y: 0.99999756, z: 1.0000002}
+    - name: OgreLDigit33
+      parentName: OgreLDigit32
+      position: {x: -0.085317075, y: 0, z: 0.000000019073486}
+      rotation: {x: -0.018375797, y: -0.018860307, z: 0.12768634, w: 0.99146503}
+      scale: {x: 1.0000014, y: 1.0000011, z: 0.9999989}
+    - name: OgreLDigit21
+      parentName: OgreLPalm
+      position: {x: -0.30241555, y: 0.02236206, z: 0.088919505}
+      rotation: {x: -0.008730531, y: 0.09989037, z: 0.032272324, w: 0.9944367}
+      scale: {x: 1.0000011, y: 0.999998, z: 1.0000017}
+    - name: OgreLDigit22
+      parentName: OgreLDigit21
+      position: {x: -0.11786926, y: 0.00000015258789, z: 0.000000009536743}
+      rotation: {x: 0.010638206, y: -0.022411302, z: 0.032065593, w: 0.99917793}
+      scale: {x: 1.0000007, y: 0.99999785, z: 1.0000017}
+    - name: OgreLDigit23
+      parentName: OgreLDigit22
+      position: {x: -0.096512526, y: 0, z: 0.0000000047683715}
+      rotation: {x: 0.012909444, y: 0.0048123375, z: 0.023366813, w: 0.99963206}
+      scale: {x: 1.0000006, y: 0.9999985, z: 1.0000018}
+    - name: OgreLDigit11
+      parentName: OgreLPalm
+      position: {x: -0.08005554, y: -0.020303192, z: 0.10646554}
+      rotation: {x: 0.57424927, y: 0.16049571, z: -0.08429567, w: 0.79835653}
+      scale: {x: 1.0000021, y: 0.99999434, z: 1.0000045}
+    - name: OgreLDigit12
+      parentName: OgreLDigit11
+      position: {x: -0.11523598, y: 0.000000038146972, z: -0.00000015258789}
+      rotation: {x: -0.024197046, y: 0.008042769, z: 0.032285903, w: 0.9991534}
+      scale: {x: 1.0000012, y: 1.0000001, z: 0.99999833}
+    - name: OgreLDigit13
+      parentName: OgreLDigit12
+      position: {x: -0.09777496, y: 0, z: 0}
+      rotation: {x: 0.04491154, y: -0.047991283, z: 0.14984427, w: 0.98652244}
+      scale: {x: 1.0000025, y: 0.99999964, z: 0.9999985}
+    - name: OgreRCollarbone
+      parentName: OgreRibcage
+      position: {x: 0.034027558, y: 0.32264864, z: -0.04561164}
+      rotation: {x: -0.048571613, y: -0.7063154, z: 0.16840583, w: 0.6858564}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000008}
+    - name: OgreRUpperarm
+      parentName: OgreRCollarbone
+      position: {x: -0.39747608, y: 0.000000019073486, z: 0}
+      rotation: {x: 0.05587332, y: -0.010617522, z: -0.18477459, w: 0.98113394}
+      scale: {x: 0.9999998, y: 0.9999996, z: 1.000001}
+    - name: OgreRForearm
+      parentName: OgreRUpperarm
+      position: {x: -0.55534285, y: 0, z: 0}
+      rotation: {x: -0.023153214, y: 0.0127739, z: -0.008294448, w: 0.99961597}
+      scale: {x: 1.0000002, y: 0.99999803, z: 1.0000008}
+    - name: OgreRPalm
+      parentName: OgreRForearm
+      position: {x: -0.43344298, y: 0, z: 0}
+      rotation: {x: 0.679497, y: 0.022552246, z: 0.022828257, w: 0.7329762}
+      scale: {x: 0.99999547, y: 0.9999999, z: 1.000005}
+    - name: ogre_morningstar
+      parentName: OgreRPalm
+      position: {x: -0.226224, y: -0.081473365, z: 0.009145969}
+      rotation: {x: -0.07453606, y: 0.9895326, z: 0.0006716408, w: -0.123568624}
+      scale: {x: 1.0000007, y: 0.9999998, z: 0.9999994}
+    - name: ogre_club
+      parentName: OgreRPalm
+      position: {x: -0.226224, y: -0.081473365, z: 0.009145969}
+      rotation: {x: -0.07453606, y: 0.9895326, z: 0.0006716408, w: -0.123568624}
+      scale: {x: 0.9999996, y: 1.0000006, z: 1.0000002}
+    - name: ogre_axe_02
+      parentName: OgreRPalm
+      position: {x: -0.22622421, y: -0.08147339, z: 0.009145966}
+      rotation: {x: -0.07453549, y: 0.98953265, z: 0.0006711642, w: -0.12356883}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: ogre_axe_01
+      parentName: OgreRPalm
+      position: {x: -0.22622421, y: -0.08147339, z: 0.009145966}
+      rotation: {x: -0.07453632, y: 0.9895326, z: 0.0006716027, w: -0.12356866}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: ogre_sword
+      parentName: OgreRPalm
+      position: {x: -0.226224, y: -0.081473365, z: 0.009145969}
+      rotation: {x: -0.07453606, y: 0.9895326, z: 0.0006716408, w: -0.123568624}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1}
+    - name: ogre_trunk
+      parentName: OgreRPalm
+      position: {x: -0.22622421, y: -0.08147339, z: 0.009145966}
+      rotation: {x: -0.074536316, y: 0.98953253, z: 0.0006712836, w: -0.123568825}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: ogre_hammer
+      parentName: OgreRPalm
+      position: {x: -0.22622421, y: -0.08147339, z: 0.009145966}
+      rotation: {x: -0.074536316, y: 0.98953253, z: 0.0006712836, w: -0.123568825}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: ogre_mace
+      parentName: OgreRPalm
+      position: {x: -0.226224, y: -0.081473365, z: 0.009145969}
+      rotation: {x: -0.07453606, y: 0.9895326, z: 0.0006716408, w: -0.123568624}
+      scale: {x: 1.0000007, y: 0.9999998, z: 0.9999994}
+    - name: OgreRDigit31
+      parentName: OgreRPalm
+      position: {x: -0.29858032, y: 0.009587554, z: 0.018932581}
+      rotation: {x: 0.020143801, y: -0.08943634, z: 0.015708731, w: 0.99566495}
+      scale: {x: 1.0000004, y: 0.9999952, z: 1.000005}
+    - name: OgreRDigit32
+      parentName: OgreRDigit31
+      position: {x: -0.11885139, y: -0.00000015258789, z: -0.000000009536743}
+      rotation: {x: 0.008315537, y: 0.009351532, z: 0.035415556, w: 0.99929434}
+      scale: {x: 1.0000011, y: 0.99999505, z: 1.0000042}
+    - name: OgreRDigit33
+      parentName: OgreRDigit32
+      position: {x: -0.085316844, y: 0, z: 0.000000038146972}
+      rotation: {x: 0.018375592, y: 0.018859886, z: 0.12768582, w: 0.9914651}
+      scale: {x: 1.0000013, y: 0.99999475, z: 1.000004}
+    - name: OgreRDigit21
+      parentName: OgreRPalm
+      position: {x: -0.30241346, y: 0.022362517, z: -0.08892027}
+      rotation: {x: 0.008731272, y: -0.09989296, z: 0.03226691, w: 0.9944365}
+      scale: {x: 1.0000006, y: 1.0000048, z: 0.9999948}
+    - name: OgreRDigit22
+      parentName: OgreRDigit21
+      position: {x: -0.11786949, y: -0.00000015258789, z: 0}
+      rotation: {x: -0.010638575, y: 0.022411676, z: 0.032065723, w: 0.9991779}
+      scale: {x: 1.0000004, y: 1.0000043, z: 0.9999952}
+    - name: OgreRDigit23
+      parentName: OgreRDigit22
+      position: {x: -0.09651245, y: 0, z: 0}
+      rotation: {x: -0.0129098855, y: -0.00481241, z: 0.02336623, w: 0.99963206}
+      scale: {x: 1.0000018, y: 1.0000046, z: 0.99999493}
+    - name: OgreRDigit11
+      parentName: OgreRPalm
+      position: {x: -0.08005554, y: -0.020303192, z: -0.106466144}
+      rotation: {x: -0.5742494, y: -0.16049366, z: -0.08429892, w: 0.7983566}
+      scale: {x: 0.99999785, y: 1.0000046, z: 0.9999981}
+    - name: OgreRDigit12
+      parentName: OgreRDigit11
+      position: {x: -0.11523605, y: -0.000000038146972, z: 0.00000015258789}
+      rotation: {x: 0.024197752, y: -0.008041037, z: 0.03228178, w: 0.9991535}
+      scale: {x: 0.99999875, y: 1.0000056, z: 0.9999952}
+    - name: OgreRDigit13
+      parentName: OgreRDigit12
+      position: {x: -0.09777481, y: -0.000000019073486, z: 0}
+      rotation: {x: -0.04491226, y: 0.047991518, z: 0.1498418, w: 0.9865228}
+      scale: {x: 0.9999997, y: 0.9999966, z: 1.0000044}
+    - name: OgreNeck
+      parentName: OgreRibcage
+      position: {x: -0.031087799, y: -0.0397163, z: -0.000000013931421}
+      rotation: {x: -0.0000066258094, y: -0.000051416173, z: -0.13828455, w: 0.99039257}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: OgreHead
+      parentName: OgreNeck
+      position: {x: -0.29099762, y: 0, z: -1.8626451e-11}
+      rotation: {x: 0.000011578557, y: 0.00007269422, z: 0.34827673, w: 0.9373918}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: ogre_helmelt_01
+      parentName: OgreHead
+      position: {x: 2.3269358, y: -0.06326604, z: 0.00000022570471}
+      rotation: {x: 0.7071068, y: 0.00000004707848, z: -0.7071067, w: 0.000000047078483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ogre_helmelt_02
+      parentName: OgreHead
+      position: {x: 2.3269348, y: -0.06326574, z: -0.00000008528121}
+      rotation: {x: 0.7071069, y: 0.00000002765882, z: -0.70710665, w: 0.000000027658828}
+      scale: {x: 1, y: 0.99999976, z: 0.9999999}
+    - name: ogre_helmelt_03
+      parentName: OgreHead
+      position: {x: 2.3269348, y: -0.06326574, z: -0.00000008528121}
+      rotation: {x: 0.7071069, y: 0.00000002765882, z: -0.70710665, w: 0.000000027658828}
+      scale: {x: 1, y: 0.99999976, z: 0.9999999}
+    - name: Ogremouth
+      parentName: OgreHead
+      position: {x: 0.13823104, y: 0.13156699, z: -0.000000019622966}
+      rotation: {x: 0.000000028238691, y: -0.000000014476261, z: 0.8731695, w: -0.48741674}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: Ogrecloth_back
+      parentName: OgrePelvis
+      position: {x: -0.00023574829, y: -0.06758695, z: 0.000000010571675}
+      rotation: {x: 5.2089486e-11, y: 0.00000015706566, z: 1, w: 0.00000013315805}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: OgreRThigh
+      parentName: OgrePelvis
+      position: {x: -0.04143608, y: 0.112978525, z: -0.23217297}
+      rotation: {x: 0.038436312, y: 0.99669355, z: -0.022642871, w: -0.06791122}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000005}
+    - name: OgreRCalf
+      parentName: OgreRThigh
+      position: {x: -0.4949345, y: 0.00000014781952, z: 0.000000076293944}
+      rotation: {x: 0.07956762, y: 0.005064629, z: 0.10247319, w: 0.9915355}
+      scale: {x: 1, y: 1.0000013, z: 1.0000004}
+    - name: OgreRFoot
+      parentName: OgreRCalf
+      position: {x: -0.51441896, y: -0.000000007152557, z: -0.000000038146972}
+      rotation: {x: 0.05197535, y: -0.062835634, z: -0.7249191, w: 0.6839903}
+      scale: {x: 0.9999975, y: 1.0000024, z: 1.0000006}
+    - name: OgreRToe11
+      parentName: OgreRFoot
+      position: {x: -0.42482153, y: 0.024813851, z: -0.000004081726}
+      rotation: {x: 0.0055601057, y: -0.00054224255, z: -0.09601874, w: 0.99536383}
+      scale: {x: 0.9999999, y: 1.0000004, z: 0.99999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.01
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249430
+  packageName: '3D Roguelike RPG Complete Kit for Mobile and PC: TPS, Enemy AI, Puzzle
+    and Props'
+  packageVersion: 2.1
+  assetPath: Assets/AdvancedRogueLikeandPuzzleSystem/Models/Enemies/Soldier/FH_ogre.FBX
+  uploadId: 658045

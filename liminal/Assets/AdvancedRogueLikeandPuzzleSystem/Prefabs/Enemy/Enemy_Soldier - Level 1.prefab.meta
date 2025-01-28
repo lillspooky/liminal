@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c88a51fa4174f41c2affd4edf4d39733
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249430
+  packageName: '3D Roguelike RPG Complete Kit for Mobile and PC: TPS, Enemy AI, Puzzle
+    and Props'
+  packageVersion: 2.1
+  assetPath: Assets/AdvancedRogueLikeandPuzzleSystem/Prefabs/Enemy/Enemy_Soldier
+    - Level 1.prefab
+  uploadId: 658045

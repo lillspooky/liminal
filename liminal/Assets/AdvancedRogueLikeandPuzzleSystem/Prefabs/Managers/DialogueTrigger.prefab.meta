@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ac08dca0cc75d4900961b97f8bac9512
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249430
+  packageName: '3D Roguelike RPG Complete Kit for Mobile and PC: TPS, Enemy AI, Puzzle
+    and Props'
+  packageVersion: 2.1
+  assetPath: Assets/AdvancedRogueLikeandPuzzleSystem/Prefabs/Managers/DialogueTrigger.prefab
+  uploadId: 658045

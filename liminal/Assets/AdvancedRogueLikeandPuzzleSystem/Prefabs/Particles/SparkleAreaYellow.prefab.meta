@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 80c6b5d330112ef41800a729a58d22e7
+timeCreated: 1446214396
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249430
+  packageName: '3D Roguelike RPG Complete Kit for Mobile and PC: TPS, Enemy AI, Puzzle
+    and Props'
+  packageVersion: 2.1
+  assetPath: Assets/AdvancedRogueLikeandPuzzleSystem/Prefabs/Particles/SparkleAreaYellow.prefab
+  uploadId: 658045

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 072ade2f5404113439ad723bd09909d2
+timeCreated: 1448817852
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 249430
+  packageName: '3D Roguelike RPG Complete Kit for Mobile and PC: TPS, Enemy AI, Puzzle
+    and Props'
+  packageVersion: 2.1
+  assetPath: Assets/AdvancedRogueLikeandPuzzleSystem/Mats_Textures/ParticleMaterialsAndTextures/solid_AB.mat
+  uploadId: 658045
