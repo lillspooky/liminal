@@ -95,6 +95,11 @@ namespace AdvancedRogueLikeandPuzzleSystem
 
         private float manaDrainTimer = 0f;
 
+        [Header("Z Reset Settings")]
+        [Tooltip("Speed at which the player's z-position is reset to 0 when grounded.")]
+        public float resetZSpeed = 10f;
+        [Tooltip("The y-level considered to be the ground (e.g. 0).")]
+        public float groundYThreshold = 0f;
 
         private void Awake()
         {
@@ -120,20 +125,17 @@ namespace AdvancedRogueLikeandPuzzleSystem
         {
             if (HeroController.instance.Health <= 0) return;
 
-            // If already flying, we have a custom movement logic:
             if (isFlying)
             {
                 HandleFlightMode();
             }
             else
             {
-                // Normal mode logic
                 JumpAndGravity();
                 GroundedCheck();
                 Move();
             }
 
-            // Check if we should stop flying due to ground or no mana
             if (isFlying && (Grounded || HeroController.instance.Mana <= 0))
             {
                 DisableFlyMode();
@@ -141,7 +143,21 @@ namespace AdvancedRogueLikeandPuzzleSystem
         }
 
         /// <summary>
-        /// Call this externally to force the player to move forward automatically
+        /// In LateUpdate, if the player is grounded, not in a tunnel, and their y position
+        /// is at or below the defined ground level, their z-position is smoothly moved to 0.
+        /// </summary>
+        private void LateUpdate()
+        {
+            if (Grounded && !inTunnel && transform.position.y <= groundYThreshold)
+            {
+                Vector3 pos = transform.position;
+                pos.z = Mathf.MoveTowards(pos.z, 0f, resetZSpeed * Time.deltaTime);
+                transform.position = pos;
+            }
+        }
+
+        /// <summary>
+        /// Call this externally to force the player to move forward automatically.
         /// </summary>
         public void RunInToArea()
         {
@@ -149,7 +165,7 @@ namespace AdvancedRogueLikeandPuzzleSystem
         }
 
         /// <summary>
-        /// Call this externally to restore manual control
+        /// Call this externally to restore manual control.
         /// </summary>
         public void ActivatePlayer()
         {
@@ -177,7 +193,6 @@ namespace AdvancedRogueLikeandPuzzleSystem
                     _animator.SetBool(_animIDGrounded, Grounded);
                 }
 
-                // Reset jump count if grounded
                 if (Grounded && !isFlying)
                 {
                     jumpCount = 0;
@@ -187,19 +202,16 @@ namespace AdvancedRogueLikeandPuzzleSystem
 
         private void Move()
         {
-            // Read input
             if (GameManager.Instance.controllerType == ControllerType.KeyboardMouse)
             {
                 vectorMove = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
                 float targetSpeedTemp = Input.GetKey(GameManager.Instance.Keycode_Sprint) ? SprintSpeed : MoveSpeed;
-                // Smoothly interpolate targetSpeed:
                 _speed = Mathf.Lerp(_speed, targetSpeedTemp, 0.2f);
             }
             else if (GameManager.Instance.controllerType == ControllerType.Mobile)
             {
                 vectorMove = new Vector2(SimpleJoystick.Instance.HorizontalValue, SimpleJoystick.Instance.VerticalValue);
 
-                // If joystick is pushed far, consider sprint
                 if (Mathf.Abs(SimpleJoystick.Instance.VerticalValue) > 0.75f ||
                     Mathf.Abs(SimpleJoystick.Instance.HorizontalValue) > 0.75f)
                 {
@@ -211,22 +223,19 @@ namespace AdvancedRogueLikeandPuzzleSystem
                 }
             }
 
-            // If NOT in a tunnel, force "vertical" (z-axis) movement to 0 for 2D left-right platformer
+            // In non-tunnel mode, restrict any z-axis input.
             if (!inTunnel)
             {
                 vectorMove.y = 0f;
             }
 
-            // If no movement input, speed is 0
             if (vectorMove == Vector2.zero) _speed = 0.0f;
 
             float currentHorizontalSpeed = new Vector3(vectorMove.x, 0.0f, vectorMove.y).magnitude;
             float speedOffset = Time.deltaTime;
 
-            // For animation blending
             _animationBlend = Mathf.Lerp(_animationBlend, _speed, Time.deltaTime * SpeedChangeRate);
 
-            // Footstep SFX logic
             if (vectorMove != Vector2.zero)
             {
                 if (Time.time > lastTime + 0.35f && !HeroController.instance.inDefendMode && !isSwimming)
@@ -242,7 +251,6 @@ namespace AdvancedRogueLikeandPuzzleSystem
                 HeroController.instance.audio_AyakSesi.Stop();
             }
 
-            // Calculate rotation based on input
             if (vectorMove != Vector2.zero)
             {
                 Vector3 inputDir = new Vector3(vectorMove.x, 0.0f, vectorMove.y).normalized;
@@ -251,23 +259,20 @@ namespace AdvancedRogueLikeandPuzzleSystem
                 transform.rotation = Quaternion.Euler(0.0f, rotation, 0.0f);
             }
 
-            // Final direction to move
             Vector3 targetDirection = Quaternion.Euler(0.0f, _targetRotation, 0.0f) * Vector3.forward;
 
-            // Update animator
             if (_hasAnimator)
             {
                 _animator.SetFloat(_animIDSpeed, _animationBlend);
                 _animator.SetFloat(_animIDMotionSpeed, 1.0f);
             }
 
-            // Return if no speed and on ground (no need to do a .Move)
-            if (_speed == 0 && (_verticalVelocity < 0 && Grounded)) return;
+            if (_speed == 0 && (_verticalVelocity < 0 && Grounded))
+                return;
 
-            // If attacking or defending, skip movement
-            if (HeroController.instance.isHitting || HeroController.instance.inDefendMode) return;
+            if (HeroController.instance.isHitting || HeroController.instance.inDefendMode)
+                return;
 
-            // Swimming vs standard movement
             if (isSwimming)
             {
                 _controller.Move(targetDirection.normalized * (_speed * Time.deltaTime)
@@ -286,7 +291,6 @@ namespace AdvancedRogueLikeandPuzzleSystem
                                  + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
             }
 
-            // Sprint
             if ((Input.GetKeyDown(GameManager.Instance.Keycode_Sprint) || Input.GetButtonDown("Sprint")) &&
                 HeroController.instance.Mana >= ManaSpending_Sprint)
             {
@@ -321,7 +325,6 @@ namespace AdvancedRogueLikeandPuzzleSystem
             if (!this.enabled) return;
             if (isSwimming) return;
 
-            // Check if grounded
             if (Grounded)
             {
                 _fallTimeoutDelta = FallTimeout;
@@ -332,17 +335,13 @@ namespace AdvancedRogueLikeandPuzzleSystem
                     _animator.SetBool(_animIDFreeFall, false);
                 }
 
-                // reset our velocity when grounded
                 if (_verticalVelocity < 0.0f)
                 {
                     _verticalVelocity = -2f;
                 }
 
-                // Normal jump check
-                // Use KeyDown or KeyUp as needed for your design
                 if (Input.GetKeyDown(GameManager.Instance.Keycode_Jump) && _jumpTimeoutDelta <= 0.0f)
                 {
-                    // FIRST JUMP
                     _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
                     if (_hasAnimator)
                     {
@@ -352,7 +351,6 @@ namespace AdvancedRogueLikeandPuzzleSystem
                     lastJumpTime = Time.time;
                 }
 
-                // jump timeout
                 if (_jumpTimeoutDelta >= 0.0f)
                 {
                     _jumpTimeoutDelta -= Time.deltaTime;
@@ -374,54 +372,40 @@ namespace AdvancedRogueLikeandPuzzleSystem
                     }
                 }
 
-                // If already in the air, check for a quick second jump => triggers fly mode
                 if (!isFlying && Input.GetKeyDown(GameManager.Instance.Keycode_Jump))
                 {
-                    // Check if within threshold
                     if (jumpCount == 1 && (Time.time - lastJumpTime <= doubleJumpThreshold))
                     {
                         EnableFlyMode();
                     }
                     else
                     {
-                        // If second jump is out of threshold, treat as normal second jump (optional)
                         jumpCount = 2;
                     }
                 }
             }
 
-            // apply gravity if not flying
             if (!isFlying && _verticalVelocity < _terminalVelocity)
             {
                 _verticalVelocity += Gravity * Time.deltaTime;
             }
         }
 
-        /// <summary>
-        /// Enables flight mode: no gravity, custom movement.
-        /// </summary>
         private void EnableFlyMode()
         {
             isFlying = true;
-            jumpCount = 2; // we used our second jump
-
-            // Optionally set an upward velocity if you want a little boost on flight start
+            jumpCount = 2;
             _verticalVelocity = 0f;
 
             if (_hasAnimator)
             {
-                // You might want a "Fly" or "Hover" animation parameter
                 _animator.SetBool("IsFlying", true);
             }
         }
 
-        /// <summary>
-        /// Disables flight mode: revert to normal gravity-based logic.
-        /// </summary>
         private void DisableFlyMode()
         {
             isFlying = false;
-            // Let the normal "fall" or "grounded" logic pick up
             _verticalVelocity = 0f;
 
             if (_hasAnimator)
@@ -430,19 +414,12 @@ namespace AdvancedRogueLikeandPuzzleSystem
             }
         }
 
-        /// <summary>
-        /// Custom flight movement when isFlying = true.
-        /// </summary>
         private void HandleFlightMode()
         {
-            // In flight mode, ignore normal jump/ gravity logic.
-            // Player can move freely in the air (x,z) plus up/down.
-
-            // Drain mana over time if needed
             if (manaDrainPerSecond > 0)
             {
                 manaDrainTimer += Time.deltaTime;
-                if (manaDrainTimer >= 1f) // once per second
+                if (manaDrainTimer >= 1f)
                 {
                     HeroController.instance.Mana -= manaDrainPerSecond;
                     GameCanvas_Controller.instance.Update_Mana_Bar(manaDrainPerSecond);
@@ -450,41 +427,30 @@ namespace AdvancedRogueLikeandPuzzleSystem
                 }
             }
 
-            // Gather standard horizontal movement
             float horizontal = Input.GetAxis("Horizontal");
             float vertical = Input.GetAxis("Vertical");
 
-            // We’ll treat forward/back as Z, left/right as X
-            // If you want to base orientation on the camera, do a rotation:
             Vector3 moveDirection = new Vector3(horizontal, 0f, vertical);
 
-            // Up/Down arrow keys for vertical flight (Y-axis).
-            // Alternatively, you could use Q/E or separate input axes.
             bool moveUp = Input.GetKey(KeyCode.UpArrow);
             bool moveDown = Input.GetKey(KeyCode.DownArrow);
 
-            // Combine them
             float upDown = 0f;
             if (moveUp) upDown = 1f;
             if (moveDown) upDown = -1f;
 
-            // Fly final velocity
             Vector3 flightVelocity = (transform.TransformDirection(moveDirection) * flySpeed)
                                      + (Vector3.up * upDown * flyVerticalSpeed);
 
-            // Actually move the CharacterController
             _controller.Move(flightVelocity * Time.deltaTime);
 
-            // You can optionally allow yaw rotation as well:
             if (moveDirection.magnitude > 0.01f)
             {
-                // Smoothly rotate in flight
                 float targetYaw = Mathf.Atan2(moveDirection.x, moveDirection.z) * Mathf.Rad2Deg + _mainCamera.transform.eulerAngles.y;
                 float smoothed = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetYaw, ref _rotationVelocity, RotationSmoothTime);
                 transform.rotation = Quaternion.Euler(0f, smoothed, 0f);
             }
 
-            // Animate or set flying speed parameter:
             if (_hasAnimator)
             {
                 float flightSpeed = flightVelocity.magnitude;
@@ -503,13 +469,10 @@ namespace AdvancedRogueLikeandPuzzleSystem
         {
             Color transparentGreen = new Color(0.0f, 1.0f, 0.0f, 0.35f);
             Color transparentRed = new Color(1.0f, 0.0f, 0.0f, 0.35f);
-
-            // ground check gizmo
             Gizmos.color = Grounded ? transparentGreen : transparentRed;
             Gizmos.DrawSphere(new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z), GroundedRadius);
         }
 
-        // Water triggers
         private void OnTriggerEnter(Collider other)
         {
             if (other.CompareTag("Water"))
@@ -554,7 +517,6 @@ namespace AdvancedRogueLikeandPuzzleSystem
             Debug.Log("Tunnel state changed. Now inTunnel = " + inTunnel);
         }
 
-        // Extra method for UI jump button, if used
         public void JumpNow()
         {
             if (!this.enabled) return;
@@ -562,7 +524,6 @@ namespace AdvancedRogueLikeandPuzzleSystem
 
             if (Grounded && _jumpTimeoutDelta <= 0.0f)
             {
-                // FIRST jump
                 _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
                 Grounded = false;
                 if (_hasAnimator)
@@ -574,14 +535,13 @@ namespace AdvancedRogueLikeandPuzzleSystem
             }
             else if (!Grounded && !isFlying)
             {
-                // Check for second jump => flight
                 if (jumpCount == 1 && (Time.time - lastJumpTime <= doubleJumpThreshold))
                 {
                     EnableFlyMode();
                 }
                 else
                 {
-                    jumpCount = 2; // Normal double jump, if you want to handle it differently
+                    jumpCount = 2;
                 }
             }
         }
