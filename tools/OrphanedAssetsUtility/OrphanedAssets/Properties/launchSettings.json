@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "OrphanedAssets": {
+      "commandName": "Project",
+      "workingDirectory": "../../../liminal"
+    }
+  }
+}
