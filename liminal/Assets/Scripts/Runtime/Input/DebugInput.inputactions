@@ -1,0 +1,45 @@
+{
+    "name": "DebugInput",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "2277380a-81f5-4f59-9444-483eb5c80511",
+            "actions": [
+                {
+                    "name": "Switch Characters",
+                    "type": "Button",
+                    "id": "c7dee421-5605-4b2b-bc21-c487ce15c14b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f1624af0-af6d-40a4-bf63-8c25d68cfd9c",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch Characters",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "93c90604-f58e-4dbe-9aff-9d79bf611649",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch Characters",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
