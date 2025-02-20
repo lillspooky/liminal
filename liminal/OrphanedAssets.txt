@@ -1,0 +1,273 @@
+272 assets with no references
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Weapons\Shield\ShieldDetails\Medieval_Shield_low_M_Medieval_Shield_Roug.png (da039d2d96d356d41bd190e4690ee155) - 14.5 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Weapons\Shield\ShieldDetails\Medieval_Shield_low_M_Medieval_Shield_Meta.png (2d8afff9f30710f4f9fff953a3dfaf56) - 9.23 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\repetitive floor\repetitive floor_DefaultMaterial_BaseColor.png (3d63e367d851ae14583dbb19c2c6a602) - 4.3 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Documentation\Documentation.pdf (01cd6472acae3426ebcaa9fa46cb4ced) - 4.1 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wall_1\wall_1_DefaultMaterial_BaseColor.png (94381fa2f83d9b2458f58dd91d16a86c) - 3.63 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wide floor\wide floor_DefaultMaterial_BaseColor.png (bf8d42ca2d88337458c3dcade17d48e3) - 3.28 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wall_3\wall_3_DefaultMaterial_BaseColor.png (17b496b6638b4b7469ef9582429f0ca9) - 3.2 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wall_7_mini\wall_7_mini_DefaultMaterial_BaseColor.png (ea0b8578b2d80c1488a580f05155420e) - 3.17 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wall_12\Stairs_2_02 - Default_BaseColor.png (a7c0fcf4bba63e34895594df9779d8ce) - 3.16 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Stairs\Stairs_2\Stairs_2_02 - Default_BaseColor.png (8d2b81acaa384ba4cac2a40b631c70b1) - 3.16 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wall_10_long\wall_10_long_DefaultMaterial_BaseColor.png (bd16e97f2ab22bc49bb549292d85d409) - 3 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\corner wall\corner wall_DefaultMaterial_BaseColor.png (ac83c685aa54647498395d139b4dc72b) - 2.91 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Long_ground\Long_ground_DefaultMaterial_BaseColor.png (bda5cb83517ce5c4992dca6cecc899d5) - 2.67 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\NailedBoard\civili_tahta_02 - Default_AlbedoTransparency.png (a118cc9e5e6a0d04db28a9668831164b) - 2.67 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wall_4\wall_4_DefaultMaterial_BaseColor.png (fa53f5c134b3a9b4f897208c051b8aad) - 2.58 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\Animations\Archer\Archer.fbx (b5702411e2d054e7bb17bebc49f284c3) - 2.51 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wall_9_long\wall_9_long_DefaultMaterial_BaseColor.png (8d8b7d81bab6d0e40b1a3aed63c491f0) - 2.48 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wall_8_long\wall_8_long_DefaultMaterial_BaseColor.png (fe105c0791833164e9ddfd1cbb5d0ae3) - 2.41 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wall_2\wall_2_DefaultMaterial_BaseColor.png (344e709f30cce9143add3e01d1c72471) - 2.37 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wall_5\wall_5_DefaultMaterial_BaseColor.png (4612bbf9796b0cf4f99a6ce9f325a3f7) - 2.2 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Lift\07 - Default_Base_Color.png (b295f76e279026c40b48dc057e770a92) - 2.03 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\Room_2\16 - Default_Base_Color.png (e68f4ef87e4914b499e43686f84af9f8) - 1.58 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Die.wav (690417d0695bf444d8bc348d63bd4ec5) - 1.57 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Open_Door_WithLight.wav (43a3ac8da8a104cc989e041c40acab6a) - 1.41 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Stairs\Stairs_2\Stairs_2_07 - Default_BaseColor.png (452847e9f3ed684429c96d48492e7564) - 1.37 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wall_12\Stairs_2_07 - Default_BaseColor.png (272fef7fea3ae504e9287d5c7ea7a01c) - 1.37 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Die2.wav (366c995d54977437bba114be1ac54a68) - 1.36 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Character\sac_icin_Body_diffuse.png (90e23e4c97a9ab149af56503bcc5f66a) - 1.29 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Die3.wav (c28adef16984f48c9b0175addc3f4e17) - 1.26 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Lift\gear wheel\11 - Default_Base_Color.png (2f4acddf91ec47d4283518737117a5b4) - 1.23 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Doors\SM_Wooden_Door_01_R.fbx (f8552ca55418dd746bd7890bf02a48f3) - 1.16 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Doors\SM_Wooden_Door_01_L.fbx (111a0f7ea42d33b4d82a1da07b0ebbf5) - 1.16 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Character\Animations\Victory.fbx (483dc74cf6bc5466985ff03cc6a6dff4) - 1.14 MiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\candlestick\candles\15 - Default_Base_Color.png (674fdd2446984b4409b2d00505b64ff5) - 980 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\ChairMini\iskemble_07 - Default_AlbedoTransparency.png (7837bb4be30a9184a9dcc967293eaeb2) - 937 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wall_6_mini\wall_6_mini_DefaultMaterial_BaseColor.png (6ca09d3d16c236d4fbe46c6be0e83674) - 899 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wall_12\Stairs_2_20 - Default_BaseColor.png (3fea0e4eb3adbb44491d16d53010693e) - 895 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Stairs\Stairs_2\Stairs_2_20 - Default_BaseColor.png (ad12c392e6fe2174690afec9c2d63be5) - 895 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\DoorWithCOlumns\kemer_kapi_07 - Default_AlbedoTransparency.png (aba2d312b1b065e4aa06aeb6295636d5) - 819 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_PullingTheArm.wav (7a68e246b1b6543d6802892e21880fe2) - 805 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\Animations\Enemy_Attack3.fbx (cc5023227480748fe860fc24dfcb7dcd) - 691 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Prefabs\Character\AdvancedTPSPlayer.prefab (07d3bb68f19d1423ba0bd55650b3755e) - 662 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\asker_odasi\duvarlar\08 - Default_Base_Color.png (b630d53fc65160f4f9279a43db2e6b7c) - 604 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Character\Animations\Locomotion--Run_S.anim.fbx (a073c604c44135e438eeeaef77058ac5) - 586 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\Animations\Die.fbx (000d000e51b7a4122bceabd3f7cf5b58) - 574 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\Animations\Idle.fbx (0dc6e25006ae24a27a842848a411afc9) - 564 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Weapons\Axe\yeni_balta\Metalic.png (5374070ce66af38448f6c8e9392b3300) - 528 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\Room_2\22 - Default_Base_Color.png (d04e0e3f3ed910a4786d9b4cbfae4812) - 520 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\asker_odasi\duvarlar\14 - Default_Base_Color.png (deb21bae2ffff0a489fe8c2d123b901e) - 517 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_MetalDoor_Open.wav (24fed914b81d049c983b72bb0e5d4b1a) - 517 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_ObjectiveDone.wav (53db90d0b67e24c68bdbed2ecb33f6c1) - 503 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Swim.wav (9ab8e6ddfc4fb4b21bc8e7f38d2d520f) - 480 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\Animations\Enemy_Attack1.fbx (52b9911f067b048b89708484e73057b0) - 477 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Wall\SM_Wall_Thick_Ruined_012.fbx (12db64984317bc341b83a8b2e6a74022) - 475 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Fly3.wav (258c0bd998368544a9d6ee546f91d593) - 475 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\Animations\Enemy_Attack2.fbx (bf6b98ce33cff4476a1dda481bb87d37) - 470 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Objective_New.wav (3493fd80733f742f4a871ba25251cfe1) - 439 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\Animations\Walk.fbx (cd1855588634c4f049fd55c2cf73e275) - 432 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\Animations\Run.fbx (ccd374160ea6448aaa9ac7669665a7f5) - 371 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_DoorExplosion.wav (247780c88ca894b4099c5c16dd2751b5) - 330 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Character\Hero_Hair_diffuse.png (7c65fb2dbf3f0499981272a72b5a2544) - 296 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Room Props\kapak\throne room_kapak_02 - Default_AlbedoTransparency.png (e50b1f2637eb56b48bff8321f28b0a0f) - 289 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_PutOff.wav (6edda232ebb024e78a4c9103c5a64339) - 275 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Bridge\corner bridge.fbx (39c856598ba65054c8084b5d19e315b2) - 272 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audios_Hit\Audio_Weapon_Hit1.wav (b7069eb07980b4ea88cbd1d08daea385) - 266 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audios_Hit\Audio_Weapon_Hit2.wav (b9636c3e5058641feba7bb831f49ad8f) - 266 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audios_Hit\Audio_Weapon_Hit3.wav (d9bb90efd551942daa1d59ee5033570e) - 266 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_PutOn.wav (d9c0b6def772a461eadfd601d0e14422) - 265 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Swings\Audio_Weapon_Swing4.wav (485711a0d09484bb395a5d74b6c15872) - 230 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Prefabs\Managers\GameCanvas.prefab (04e3248505c5d47bc8f236e7204bf4ac) - 209 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Potion\portal_stripes_blue.png (aeff4b420fe6391408de71cc5ac46f8a) - 207 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_OpenChest.wav (26a373997c5e444ca94857fe35c5f53d) - 194 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\TryToOpen_Multiple2.anim (d3ed3348db34d421d8e1315fde287d2b) - 193 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Shield\Audio_Shield3.wav (87fa7edd5b2f44a36b49390d17cf675b) - 189 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\Open_Door_Multiple2.anim (b802c316bed2647ecb2869f1fda8762b) - 189 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\Close_Door_Multiple2.anim (50ef4d797d438497d8b514601918b5c3) - 189 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Rooms\Room_2.fbx (ba876040418b88e42854b76993afc099) - 180 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Sprint.wav (d972076095d4d4a4bb4e790432756cf0) - 180 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\asker_odasi\duvarlar\07 - Default_Base_Color.png (0d721f33c7090ab4b92f4822749b5aba) - 178 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Wall\SM_Wall_Low_04.fbx (9d80f42d2ff074a48ada941785a205a5) - 171 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Props\chandelier.fbx (4a71edce4e817894da9d38613f80f931) - 168 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Potion.wav (77aa90ca354054b2aba3441a13ef727f) - 164 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Shield\Audio_Shield2.wav (fd0bb13645ac049bcb9a9ef370235acd) - 162 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_WoodenDoor_Open.wav (756b9e893a59242989b7a3a88e041c21) - 158 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Water\Water.fbx (fb2f5cec30b474b89b778e3aab6f3dfe) - 148 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_LockedDoorTry.wav (bb4bfa364ce8545158da07a0e0e20f17) - 144 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_DoorUnlock.wav (0fefa0f9b56dd42f4b8d8ec9938df02b) - 144 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\UISprites\Custom_Sprite_Check.png (1c7895f96fbce4c2a9713bd8af6017b0) - 131 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Footstep.wav (64fd51607d22e41bf8d718efa6fd55e6) - 129 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Rooms\general wood area.fbx (482a4dd6016563a4ab2d739c8b98c8c6) - 126 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Props\water_barrel.fbx (d8d59d105ffdcdf418af552a3affe8ca) - 116 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Swings\Audio_Weapon_Swing1.wav (f463e929a141348c4a09dc2c6bf6e8b8) - 116 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_DoorClose.wav (8091d81d725e54397ba80ce2dc3b3204) - 113 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_KnifeOut.wav (239a5076e5ada4461acb35af056db0b1) - 110 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Prefabs\Character\Hero.prefab (719ee2284e60a5f4099ebd8326d02c48) - 110 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\TryToOpen_Izgara.anim (777edf73eafca43698600f4ae4da5211) - 105 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Shield\Audio_Shield1.wav (2c13b4e28cba44a7b81d9af250a67b22) - 104 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Coin.wav (4d304360b4e4d427e8bb41439968ef7f) - 101 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\Open_Door_Izgara.anim (a7f170d0e57ed4d2d9cafc6bff6dc542) - 98.6 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\TryToOpen_Single.anim (0eae2b81b93ac4c6e9656d9e9ad17673) - 91.4 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_ButtonPressed.wav (f8295950c2bba4513b92e0f5e4608fe4) - 90.1 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\Close_Door_Single.anim (cbb502e3012ae4fe29a21e6f0a5beb51) - 88.2 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\Open_Door_Single.anim (dbd0a0ff47cd147ada26ecd156837e42) - 88.1 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Swings\Audio_Weapon_Swing2.wav (0012ddcd880924564b060da84648815e) - 86.4 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\Room_1\sky_box.png (fe26a9590f6866042ae4b59f01a24442) - 83.2 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\StarterAssetsThirdPerson 1.controller (5d1c8192e3dee4f699677bd59ab2eb2b) - 58.8 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Swings\Audio_Weapon_Swing3.wav (a99356cb8ffef4069a6c8d7bace1eb08) - 58.5 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\NailedBoard\Take 002.anim (7708d47f7ef284d328542eb53bb9e494) - 53.3 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\UISprites\Custom_Sprite_Potion_Invisibility.png (ccc3f9e14b59a49da95b52f856b7e8b8) - 53 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\UISprites\Custom_Sprite_Potion_Speed.png (3da9021a3fbeb4ae7a357b0102ed0a40) - 52.6 KiB
+\Assets\InputSystem_Actions.inputactions (052faaac586de48259a63d0c4782560b) - 41.1 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Props\pot_3.fbx (84b7ff5cfa33fec4992f9ad485f7a27b) - 32.8 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Props\pot_2.fbx (7839022baec0ecb48b43eea0067d6242) - 32.3 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Props\pot_1.fbx (e42f4ad4b1ee9844490f7fd89bd2b242) - 32.3 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Sounds\Audio_Grab.wav (c7c702fe2a8e84ecd8b8393bcfd515f4) - 31.6 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Wooden_Column\22 - Default_Base_Color.png (939cdb59482ee8d42bbd327e2b360796) - 16.5 KiB
+\Assets\TutorialInfo\Layout.wlt (eabc9546105bf4accac1fd62a63e88e6) - 15.8 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\UISprites\Custom_Sprite_ObjectiveIcon.png (271ed95940e731f428772b3e59f1762a) - 13.2 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\UISprites\Custom_Sprite_WeaponInOut.png (86ce6dac18d584a1e81598f7f4a66897) - 13.1 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\ParticleMaterialsAndTextures\Flare31.png (dfb4734485aa8314d9d34692567833d8) - 7.8 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\FinalVezirCamera.anim (da78af850f8ac4bcf8be85d1bf81447f) - 7.64 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Prefabs\Character\Main Camera.prefab (b4119f4059b9b44198a62670bc11487f) - 6.86 KiB
+\Assets\Scripts\Runtime\Input\PlayerInput.inputactions (8e5254c90ddccfb429891e2b2ed94817) - 6.74 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Turn Blade\Blades\New Animation.anim (8e06717c634f5644591cf2aac52c382d) - 6.57 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Doors\MI_Wall_01.mat (efcf4849120d1d148a862fc137e8a066) - 5.26 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\UISprites\bounce.anim (a4064420573ac4accbe971cf8ac23330) - 5.11 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\Bounce_ObjectiveDonePanel.anim (62b5343f2711343ca9e49bcbe9e58c83) - 5.03 KiB
+\Assets\Settings\PC_RPAsset.asset (4b83569d67af61e458304325a23e5dfd) - 4.39 KiB
+\Assets\Settings\Mobile_RPAsset.asset (5e6cbd92db86f4b18aec3ed561671858) - 4.38 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Environment\Water\ParticleSystem_Foam.mat (1f1d0eb60890941809851582ab189602) - 4.1 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Water\Material_Water.mat (4849d4d15a9cb42eb9533ae935e2630b) - 4.05 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Weapons\Axe\Material_Axe 1.mat (d512fdbb8e807254cb9820283f724532) - 3.92 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Weapons\aura_vertical_ADD.mat (a3706764c40746746934f5d22917b0a1) - 3.92 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\UISprites\Custom_Sprite_Objective.png (16b5db57247c1ab4fad59fb49bc94647) - 3.91 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Doors\Materials\MI_Wood_01.mat (f8101099e134359478950d771e2b0ff1) - 3.87 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Pots\Pot_2\Pot_2.mat (1277dcc842bb6a641bf7aff9b076ab0b) - 3.84 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\puzzle\Mechanics\mekanizma 1.mat (13d6350b962b64747aab72676bbe4161) - 3.84 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Room Props\Stair\Stair 2.mat (6ddde18c0be27c540bb1114c4e633173) - 3.82 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\sandik\sandik 1.mat (41a69324c0e0a924c9f68d8249dcd658) - 3.81 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\sandik\sandik 4.mat (c7878278ba86c1a43acb91622efefb9e) - 3.81 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\sandik\sandik.mat (96f1c671dfe4ddf49822c6612a1c4634) - 3.81 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Enemies\Archer\MaterialGetDamage.mat (9764beeba13c74465b8ac9eaa6435ea8) - 3.78 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Doors\MI_Metal_01.mat (e3415f2a2e656974381099f341ca22ae) - 3.77 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\ChairMini\iskemble 1.mat (e38140182cfac524ebc31c646737fba1) - 3.77 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\ChairMini\iskemble.mat (f46d0c87e55e87545ad836e419247e37) - 3.76 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\water_barrel\water_barrel 1.mat (ac2aff494a97ae448adc8b82334096e5) - 3.76 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\asker_odasi\giris_stun\stuhn.mat (c9944b6b7e67ad04eab1eac0c708852f) - 3.76 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Room Props\throne_ground\ground.mat (274cc5fc8899a724398fdd80bfa31240) - 3.76 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Environment\Wooden Stairs Platform\Stairts_wooden_platform.mat (f3c2e3d9e12f24840beff0f617cb765f) - 3.75 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Others\suslemeler.mat (df54ad1737e9a25469dee4cd5feda19a) - 3.75 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Materials\corner bridge 3.mat (f4b57bb071d130442b0b1c5782ff8ed5) - 3.75 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Materials\corner bridge 2.mat (e8d75fff6fdb8cc43a91fd91bd8795ab) - 3.75 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\sandik\sandik 2.mat (89a9b222431b1d14597188cd7d453c7c) - 3.75 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Wooden Door\Wooden door 2.mat (426cca0515cb27b40b2c2341e4cae90a) - 3.75 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Wooden Door\Wooden door 3.mat (b9b2fcad2dd5d3c49ba487eae2fd4840) - 3.75 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\asker_odasi\kapi\kapi 1.mat (6bf2d0cb88ec93840aab79291d785d54) - 3.75 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\sandik\sandik 3.mat (8f9c8574e9085774ca47e0fb41a40ecb) - 3.74 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Room Props\Stair\Stair 1.mat (69c5c24b195ed9b45b1d1cfce804f963) - 3.74 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Environment\Stairs\Stairs_2.mat (0dd88fb7e60ee2c46bb5f0cb8fffa2ee) - 3.74 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Wooden Door\Wooden door 4.mat (461f933ec9a006743b68e0f8f4e51de6) - 3.74 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Wooden Door\Wooden door 1.mat (3d422ff2b9435764191a92fce4cf8881) - 3.74 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Room Props\Stair\Stair.mat (2988e1a84cbf8b142b5fe3f97bd421df) - 3.74 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Wooden Door\Wooden door.mat (386c37adfa8085041b00509162d3a83d) - 3.74 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\water_barrel\water_barrel.mat (7e2251f044a61494d8c8c8e8dfe9e30f) - 3.74 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Stairs\Wooden_Stairs2\Wooden_Stairs 2.mat (2f07a2cc51726af47a882625fb5e8925) - 3.74 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\general wood area\woodarea1.mat (d9416243372aa8c4b9f5eb7665a172f3) - 3.74 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\general wood area\woodarea.mat (cfa3b1455ecbe264daad189106ec3b02) - 3.74 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\general wood area\woodarea2.mat (89a1e6775deca0740b7a1923d33a6c5f) - 3.74 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Pots\Pot_3\Pot_3.mat (b94cc6c92c9c0e148bbca58084c65267) - 3.74 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Pots\Pot_1\Pot_1.mat (60524753a5e642d499c3658bc55abdd9) - 3.73 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Room Props\Walls\walls.mat (467fb980a8b53c645ae80b609d54ceb3) - 3.73 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\puzzle\Mechanics\mekanizma.mat (f24d10f9231f94345bd80ca6d1766cb9) - 3.73 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Materials\corner bridge 1.mat (a16440786ea5e8c49bd45ed3a905726f) - 3.73 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\ChairMini\iskemble 2.mat (16d0fb519a9840b40b66e3b9ae5eb90d) - 3.73 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Environment\Room\Room_1 2.mat (97e843a2587eafc41bd83a0e57a8a858) - 3.72 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Others\suslemeler 2.mat (30156cf11b718784f995385d6c2f1584) - 3.72 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Balcony_2\Balcony_2 1.mat (de850854cf25a0942a74ecc25bff64f2) - 3.72 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Balcony_2\Balcony_2.mat (9c1218bfdabd565479a12ec479dcc53f) - 3.72 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Balcony_2\Balcony_2 2.mat (cc58a2d87889cd8448e992c51d56bbef) - 3.72 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Potion\Material_Potion_Invisibility.mat (c8f33901cbf1341959f9fcd0a6327c38) - 3.72 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Bow\BowMaterial.mat (1b97066d1a217414599263247a432657) - 3.72 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\water_barrel\water.mat (be7c4536c07ff404d9309bb519f6694c) - 3.72 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Potion\Material_Potion_Speed.mat (0577aba8f2b364c14bcb3e8f7bec53f3) - 3.71 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\golds\gold.mat (28132abb0391ab94f9e5179976684733) - 3.7 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Balcony\Balcony 5.mat (41c9f0a008eaacf4eae648a13a1bf40c) - 3.7 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Doors\MI_Arch_02.mat (43a22567dea08124ea1d640b63acf977) - 3.69 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Wall\MI_Wall_03.mat (564594dfe6ba08a419fe179eafc9ebb2) - 3.69 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Corner_Textures\Bridge.mat (cc21145d6374ccc46ad28810768775ad) - 3.69 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\asker_odasi\duvarlar\duvarlar 3.mat (9f9cca4229d751845a43a8b6d6140d92) - 3.69 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\asker_odasi\duvarlar\duvarlar 1.mat (1eb3b9d9bd6821d47a558d904a3d09d2) - 3.69 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\asker_odasi\duvarlar\duvarlar.mat (92cedeef9e973674c821b8fba217db97) - 3.68 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\asker_odasi\kapi\kapi.mat (e15949e22c13cf74589ac06203f92f38) - 3.68 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Environment\Wooden Stairs Platform\Stairts_wooden_platform 2.mat (011dfdc6f1fdd4f4d802c1ae6fba14a7) - 3.68 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Environment\Wooden Stairs Platform\Stairts_wooden_platform 1.mat (9503026080623b446aea79feac596f90) - 3.68 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Materials\corner bridge 7.mat (38ec53c5791268c48851f1b75bd9e756) - 3.68 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Materials\corner bridge 4.mat (ef4e525909b6df047ad5429f339dd167) - 3.68 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Materials\corner bridge 6.mat (80848ac82150f78438ce4c47035c7de2) - 3.68 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Materials\corner bridge 5.mat (ededb9f2664485a4ca2b88d177202b28) - 3.68 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Others\suslemeler 1.mat (d9e102d9bbaf9384491c234f0e2bb22f) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wall_11_mini\wall_11_mini_.mat (d5fd987ae4b03bc44ab280276ab49dfe) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Materials\corner bridge.mat (01093c356bb628c47bff0ac18019a916) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Room Props\kapak\kapak 2.mat (bf59e421658052744b5355531a0f750e) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Room Props\kapak\kapak 1.mat (06878a7068df3e64a932960032f0a7eb) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\puzzle\Mechanics\mekanizma 2.mat (23a9fd098504cfc41a0d8347d42050e9) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Environment\Stairs\Stairs_mini.mat (0957f95601cb7f440b6a8104b7ed43a9) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\Room_2\Room_2 3.mat (66511a40c83f91c4ca8d62600d0a367e) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Balcony\Balcony 2.mat (adef24b0097f24341817e9e67e3a8157) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\General_box\general_box.mat (02be616695496794d9ee38bd7d36982c) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Balcony\Balcony 4.mat (6afd3a4f03e0c824c9940e2f6d50264a) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Bow\Material_Bow1.mat (6fa91503a1ac5429ba647d67a8338d2e) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Bow\Material_Bow3.mat (32ada516c923b44bf9cc5a546c82352a) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Bow\Material_Bow2.mat (a8570c0cc96a3472aa1a908403ddc610) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\Room_2\Room_2 2.mat (2f9c80bae2a73fc4097ee328dde46d3d) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Room Props\Ground\Ground.mat (a91fffe6455526142aafa949d2e4e1cc) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Balcony\Balcony 1.mat (10c47f45ad3fc4a498937668d8ec4e2a) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Corner_Textures\Bridge6.mat (8358e74f341aaac45ab9a82cb85005bf) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Corner_Textures\Bridge7.mat (4a4373525bd4a8d43ac180416fea8431) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Balcony\Balcony 3.mat (3db5269f7570ca140a69eb209395af93) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Corner_Textures\Bridge5.mat (d9fc5a3b564099b4e90e2971accf1099) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Corner_Textures\Bridge3.mat (e9497ad3400c01a499dc75f89227a24e) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Corner_Textures\Bridge4.mat (32faed85711657f468ade8280711f42d) - 3.67 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\Room_2\Room_2.mat (30ec707894096434d874b1bbbccada9b) - 3.66 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\Room_2\Room_2 4.mat (69920564c0dde3745a4e7269eb5325ee) - 3.66 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\Balcony\Balcony.mat (2eb48aa374ac18b468e7ccb4b4fdd5b8) - 3.66 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Lift\lift 5.mat (d05109e12e8c5654799962224a923083) - 3.66 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\Room_2\Room_2 1.mat (172b276aa354701498b6f91e0bc1a219) - 3.66 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Room Props\kapak\kapak.mat (127099a9b713c5f45a83f31db06182d4) - 3.66 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Corner_Textures\Bridge2.mat (c9aadd93f4ea7754e801728dc8e288a8) - 3.66 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\wall_12\wall_12.mat (7c3934a3999ee414d9de7219649abef1) - 3.66 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Bridge\Corner_Textures\Bridge1.mat (5ecd50dc5e1543d4d9432230cf20cbe2) - 3.66 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Rooms\asker_odasi\duvarlar\duvarlar 2.mat (178df822e91423741a49e4685da02606) - 3.66 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\golds\golds 1.mat (8bd9305d8923e034ea846f9323250051) - 3.6 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\giris\giris.mat (bc154d0108518af46b06057c3c465139) - 3.6 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Environment\New Material.mat (4b81a6bf076a66b4fa1638acaab15a8c) - 3.57 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Stairs\Wooden_Stairs\New Material.mat (801dbc051afa3f340b6fb9abb1d9ce83) - 3.57 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Doors\Materials\MI_Wall_01.mat (76e12f0b01d68412e85bf7f2d812ffa3) - 3.5 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Doors\Materials\MI_Arch_02.mat (cf16f5df4e5c14402b458912e29f468e) - 3.5 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\ParticleMaterialsAndTextures\sphereshield.mat (4775b1ea3f8c6b541b3b6707ffecfc01) - 3.49 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Weapons\Axe\New Material.mat (a72b68af0324fdc41a7f2fb93e4f82dd) - 3.48 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Doors\Materials\phong1.mat (3fb97907de2254f89b655436592366b1) - 3.47 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Weapons\Sword\Materials\mat_sword_shovel_halberd_01.mat (c338102f3744944489cfd415101c4fc0) - 3.46 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Wall\Materials\M_Collision_01.mat (0a5a3ffef0387461faae031c72067842) - 3.45 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Doors\Materials\M_Collision_01.mat (9bce43c2e556740c2967601e570d2b69) - 3.45 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Wall\Materials\MI_Bricks_01.mat (25022f6f4b51143889c022b3a44b968e) - 3.44 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Doors\Materials\MI_Metal_01.mat (fe42ec31604dd4d60a687af2bc538f31) - 3.44 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Wall\Materials\MI_Trim_01.mat (776c6eee934a2406c874e19078f99eb1) - 3.44 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Wall\Materials\MI_Wall_01.mat (4c3d44ffc5b674f178c463e6933b910b) - 3.44 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Wall\Materials\MI_Wall_03.mat (c9464b61a48a44e1294f9fa923d458cc) - 3.44 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\UISprites\Custom_Sprite_Background2.png (3621ed808ad95fc4281cd751cf394324) - 3.08 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\Move_ObjectivePanel.anim (fced62dc7ca224c68af866afb618251c) - 3.05 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Candle\13 - Default_Base_Color.png (74fa16e26d6759f419d64b5a6e4f3b6f) - 2.7 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\prop\throne room door\Material _92_Base_Color.png (e8025bba5eb19a04bbc62d9124495f72) - 2.7 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Room Props\Throne\Material _50_Base_Color.png (a24e0900cc4b56142a7b6e3c5cf935c6) - 2.7 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Room Props\Throne\Material _52_Base_Color.png (254683d355050aa4e839493cf80fb2ad) - 2.7 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Room Props\Throne\01 - Default1_Base_Color.png (f83a499f708563345b72f0a40fa09c78) - 2.7 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Room Props\Throne\Material _49_Base_Color.png (99db5c2ed2cc45240a3721368afe6c34) - 2.7 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Lift\08 - Default_Base_Color.png (a5f12877c0321314ebde32980dc35ba3) - 2.7 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Prefabs\Props\Stairs_1.prefab (503eb00f015b5be499cdbd8e768e5f14) - 2.39 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\UISprites\long_button.png (e0fb5412f0cdb7b468c51c6a6207df7b) - 2.38 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\ParticleMeshes\Materials\sphereshield.mat (d9ffd3919b95d4e9994cfe4d54ddac37) - 2.23 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Enemies\Soldier\Materials\ogre_weapons.mat (301e2cd49e8304ba1bbe3ffe2061f9ad) - 2.21 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Models\Enemies\Soldier\Materials\ogres_01.mat (2dd39244f8ece455db14fd1d91745e69) - 2.15 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\UISprites\Custom_Sprite_Arrow.png (1618cf21c38a2594cb2887358bf9ad55) - 2.06 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\Animation\BodyShield.controller (87d6c109aaf7e4691a09c43770bc843c) - 2.05 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\UISprites\Keyboard_Black_3.png (941519ed8be7e457c951fb1b342d04cf) - 1.86 KiB
+\Assets\Settings\Build Profiles\New Windows Profile.asset (b84129116a99cfa42ae7cb2c0523ad0a) - 1.57 KiB
+\Assets\AdvancedRogueLikeandPuzzleSystem\UISprites\Keyboard_Black_4.png (c6bc02fc7b9bb471f8e05a774f0047c6) - 1.47 KiB
+\Assets\Scripts\Runtime\Input\DebugInput.inputactions (f6ca9c61c1d6a434f950254e5779b3c8) - 1.46 KiB
+\Assets\Readme.asset (8105016687592461f977c054a80ce2f2) - 1.15 KiB
+\Assets\Scenes\ProBuilder Data\Default Material Palette.asset (27ce23feb53c11a4aa2c110ddf159538) - 983 B
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\Traps\Pendulum\04 - Default_Base_Color.png (e15bc2018b2d9374993e191397c1f568) - 472 B
+\Assets\AdvancedRogueLikeandPuzzleSystem\Mats_Textures\Props\Others\ChairMini\iskemble_02 - Default_AlbedoTransparency.png (192bff42ba94974459c4ab81284672aa) - 455 B
