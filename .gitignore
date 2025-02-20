@@ -6,6 +6,7 @@ Temp/
 Library/
 Logs/
 obj/
+UserSettings/
 
 # Ignore specific Unity-generated files
 *.csproj
